@@ -88,7 +88,7 @@ if __name__ == "__main__" :
     async def changecrf(app, message):
         if message.from_user.id in AUTH_USERS:
             cr = message.text.split(" ", maxsplit=1)[1]
-            OUT = f"Done! Successfully <b>CRF</b> has been set at the value of <b>{cr}</b>"
+            OUT = f"I will be using : {cr} crf"
             crf.insert(0, f"{cr}")
             await message.reply_text(OUT)
         else:
@@ -105,7 +105,7 @@ if __name__ == "__main__" :
     async def changer(app, message):
         if message.from_user.id in AUTH_USERS:
             r = message.text.split(" ", maxsplit=1)[1]
-            OUT = f"<b>{r}</b> resolution has been set!"
+            OUT = f"I will be using : {r} resolution"
             resolution.insert(0, f"{r}")
             await message.reply_text(OUT)
         else:
@@ -117,7 +117,7 @@ if __name__ == "__main__" :
     async def changepr(app, message):
         if message.from_user.id in AUTH_USERS:
             pop = message.text.split(" ", maxsplit=1)[1]
-            OUT = f"Preset : <b>{pop}</b> has been set !"
+            OUT = f"I will be using : {pop} preset"
             preset.insert(0, f"{pop}")
             await message.reply_text(OUT)
         else:
@@ -128,7 +128,7 @@ if __name__ == "__main__" :
     async def changecode(app, message):
         if message.from_user.id in AUTH_USERS:
             col = message.text.split(" ", maxsplit=1)[1]
-            OUT = f"I will be Using <b>{col}</b>"
+            OUT = f"I will be using : {col} codec"
             codec.insert(0, f"{col}")
             await message.reply_text(OUT)
         else:
@@ -138,7 +138,7 @@ if __name__ == "__main__" :
     async def changea(app, message):
         if message.from_user.id in AUTH_USERS:
             aud = message.text.split(" ", maxsplit=1)[1]
-            OUT = f"Audio has been set at bitrate <b>{aud}</b>"
+            OUT = f"I will be using : {aud} audio"
             audio_b.insert(0, f"{aud}")
             await message.reply_text(OUT)
         else:
