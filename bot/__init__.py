@@ -38,6 +38,7 @@ data = []
 crf = []
 watermark = []
 resolution = []
+preset = []
 audio_b = []
 # senpai I am changing app string WHY???????
 pid_list = []
