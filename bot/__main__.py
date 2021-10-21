@@ -93,12 +93,12 @@ if __name__ == "__main__" :
             await message.reply_text(OUT)
         else:
             await message.reply_text("Error")
-    @app.on_message(filters.incoming & filters.command(["nothumb", f"nothumb@{BOT_USERNAME}"]))
-    async def rmt(app, message):
-        if message.from_user.id in AUTH_USERS:
-            os.system('rm thumb.jpg')
-            F = "Ok! I will be uploading files with no thumbnail"
-            await message.reply(F)
+    #@app.on_message(filters.incoming & filters.command(["nothumb", f"nothumb@{BOT_USERNAME}"]))
+    #async def rmt(app, message):
+        #if message.from_user.id in AUTH_USERS:
+            #os.system('rm thumb.jpg')
+           # F = "Ok! I will be uploading files with no thumbnail"
+            #await message.reply(F)
                  
     @app.on_message(filters.incoming & filters.command(["settings", f"settings@{BOT_USERNAME}"]))
     async def settings(app, message):
