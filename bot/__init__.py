@@ -20,7 +20,7 @@ AUTH_USERS = [1666551439]
 # again lol (c) @Animes_Encoded 
 
 SESSION_NAME = "WtfMan"
-TG_BOT_TOKEN = "2094862716:AAEN35ZYstu6C_uzl3gDHtKMxigpMF7l388" 
+TG_BOT_TOKEN = "2087646344:AAE9bzTMeDpMZVIn957o8s_Mhx8pNyyLrLs"
 APP_ID = 3281305
 API_HASH = "a9e62ec83fe3c22379e3e19195c8b3f6"
 
@@ -32,7 +32,7 @@ FINISHED_PROGRESS_STR = "▓"
 UN_FINISHED_PROGRESS_STR = "░"
 BOT_START_TIME = time.time()
 LOG_FILE_ZZGEVC = "Log.txt"
-BOT_USERNAME = "animes_encoded_bot"
+BOT_USERNAME = "cringe_encoderBot"
 UPDATES_CHANNEL = "botlogas"
 data = []
 crf = []
