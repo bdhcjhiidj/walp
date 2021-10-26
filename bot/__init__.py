@@ -24,7 +24,7 @@ TG_BOT_TOKEN = "2087646344:AAE9bzTMeDpMZVIn957o8s_Mhx8pNyyLrLs"
 APP_ID = 3281305
 API_HASH = "a9e62ec83fe3c22379e3e19195c8b3f6"
 
-LOG_CHANNEL = "log_ing"  # make sure to us this 
+LOG_CHANNEL = "ffmpeg_group"  # make sure to us this 
 DOWNLOAD_LOCATION = "/app/downloads"
 FREE_USER_MAX_FILE_SIZE = 2097152000
 MAX_MESSAGE_LENGTH = 4096
