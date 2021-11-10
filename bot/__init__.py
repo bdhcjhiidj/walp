@@ -20,11 +20,11 @@ AUTH_USERS = [1666551439]
 # again lol (c) @Animes_Encoded 
 
 SESSION_NAME = "WtfMan"
-TG_BOT_TOKEN = "2087646344:AAE9bzTMeDpMZVIn957o8s_Mhx8pNyyLrLs"
-APP_ID = 3281305
-API_HASH = "a9e62ec83fe3c22379e3e19195c8b3f6"
+TG_BOT_TOKEN = "1925642873:AAHbN5M2tVQMge1R0ODkFHscqJmcPjMGOXc"
+APP_ID = 5631660
+API_HASH = "0a814444441309bc1f1bb2a0e340242a"
 
-LOG_CHANNEL = "ffmpeg_group"  # make sure to us this 
+LOG_CHANNEL = "log_hevc"  # make sure to us this 
 DOWNLOAD_LOCATION = "/app/downloads"
 FREE_USER_MAX_FILE_SIZE = 2097152000
 MAX_MESSAGE_LENGTH = 4096
@@ -32,7 +32,7 @@ FINISHED_PROGRESS_STR = "▓"
 UN_FINISHED_PROGRESS_STR = "░"
 BOT_START_TIME = time.time()
 LOG_FILE_ZZGEVC = "Log.txt"
-BOT_USERNAME = "cringe_encoderBot"
+BOT_USERNAME = "surle_bot"
 UPDATES_CHANNEL = "botlogas"
 data = []
 crf = []
