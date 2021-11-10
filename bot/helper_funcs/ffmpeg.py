@@ -45,9 +45,9 @@ async def convert_video(video_file, output_directory, total_time, bot, message, 
      ## lol 😂
     crf.append("28")
     codec.append("libx265")
-    resolution.append("800x480")
+    resolution.append("980x536")
     preset.append("veryfast")
-    audio_b.append("40k")
+    audio_b.append("50k")
     watermark.append('-vf "drawtext=fontfile=font.ttf:fontsize=20:fontcolor=white:bordercolor=black@0.50:x=w-tw-10:y=10:box=1:boxcolor=black@0.5:boxborderw=6:text=Movies Encoded"')
     file_genertor_command = f'ffmpeg -hide_banner -loglevel quiet -progress "{progress}" -i "{video_file}" {watermark[0]} -c:v {codec[0]}  -map 0 -crf {crf[0]} -c:s copy -pix_fmt yuv420p -s {resolution[0]} -b:v 400k -c:a libopus -b:a {audio_b[0]} -preset {preset[0]}  "{out_put_file_name}" -y'
  #Done !!
