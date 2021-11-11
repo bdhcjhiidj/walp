@@ -16,7 +16,7 @@ from bot.config import Config
 
 
 # dont think ne dumb (c) @Animes_Encoded
-AUTH_USERS = [909491094]
+AUTH_USERS = [909491094,-1001556942333]
 # again lol (c) @Animes_Encoded 
 
 SESSION_NAME = "WtfMan"
