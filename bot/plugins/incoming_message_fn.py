@@ -87,7 +87,7 @@ async def incoming_start_message_f(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('channel', url='https://t.me/movies_encoded')
+                    InlineKeyboardButton('channel', url='https://t.me/krispenc')
                 ]
             ]
         ),
@@ -105,7 +105,7 @@ async def incoming_compress_message_f(update):
   #        if user.status == "kicked":
   #           await bot.send_message(
   #               chat_id=update.chat.id,
-  #               text="Sorry Sir, You are Banned to use me. Contact my [BOSS](https://t.me/Nur0ns).",
+  #               text="Sorry Sir, You are Banned to use me. Contact my [BOSS](https://t.me/krisp2_bot).",
   #               parse_mode="markdown",
   #               disable_web_page_preview=True
     #         )
