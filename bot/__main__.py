@@ -221,7 +221,7 @@ if __name__ == "__main__" :
       ed = dt.now()
       v = ts(int((ed - uptime).seconds) * 1000)
       ms = (ed - stt).microseconds / 1000
-      p = f"🌋Pɪɴɢ = {ms}ms"
+      p = f"😏Pɪɴɢ = {ms}ms"
       await message.reply_text(v + "\n" + p)
 
     call_back_button_handler = CallbackQueryHandler(
