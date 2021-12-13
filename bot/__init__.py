@@ -16,15 +16,15 @@ from bot.config import Config
 
 
 # dont think ne dumb (c) @Animes_Encoded
-AUTH_USERS = [909491094,-1001556942333]
-# again lol (c) @Animes_Encoded 
+AUTH_USERS = [1956035465,-1001607031114,]
+# again lol (c) 
 
 SESSION_NAME = "WtfMan"
-TG_BOT_TOKEN = "1782259019:AAEJ5zdYRpB0eyJPjaYgnlPATV0ekj_LjGc"
+TG_BOT_TOKEN = "5058183358:AAE6KmPY50pTOUMchLPhKcmx4PFuf6gbsFc"
 APP_ID = 5631660
 API_HASH = "0a814444441309bc1f1bb2a0e340242a"
 
-LOG_CHANNEL = "log_hevc"  # make sure to us this 
+LOG_CHANNEL = "soksks"  # make sure to us this 
 DOWNLOAD_LOCATION = "/app/downloads"
 FREE_USER_MAX_FILE_SIZE = 2097152000
 MAX_MESSAGE_LENGTH = 4096
@@ -32,7 +32,7 @@ FINISHED_PROGRESS_STR = "▓"
 UN_FINISHED_PROGRESS_STR = "░"
 BOT_START_TIME = time.time()
 LOG_FILE_ZZGEVC = "Log.txt"
-BOT_USERNAME = "moviescomp_bot"
+BOT_USERNAME = "username_copiedbot"
 UPDATES_CHANNEL = "botlogas"
 data = []
 crf = []
