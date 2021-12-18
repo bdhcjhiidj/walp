@@ -42,7 +42,7 @@ sudo_users = "1666551439"
 crf.append("28")
 codec.append("libx264")
 resolution.append("800x400")
-preset.append("ultrafast")
+preset.append("veryfast")
 audio_b.append("30k")
 # 🤣
 
