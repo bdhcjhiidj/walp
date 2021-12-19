@@ -15,12 +15,12 @@ from bot.config import Config
 
 
 
-# dont think ne dumb (c) @Animes_Encoded
-AUTH_USERS = [1956035465,-1001607031114,1041579937]
+
+AUTH_USERS = [1956035465]
 # again lol (c) 
 
 SESSION_NAME = "WtfMan"
-TG_BOT_TOKEN = "5058183358:AAE6KmPY50pTOUMchLPhKcmx4PFuf6gbsFc"
+TG_BOT_TOKEN = "5005768095:AAHj0SvxGgoaIVFiyDHVXn3rObWQFSRcNog"
 APP_ID = 5631660
 API_HASH = "0a814444441309bc1f1bb2a0e340242a"
 
@@ -32,8 +32,8 @@ FINISHED_PROGRESS_STR = "▓"
 UN_FINISHED_PROGRESS_STR = "░"
 BOT_START_TIME = time.time()
 LOG_FILE_ZZGEVC = "Log.txt"
-BOT_USERNAME = "username_copiedbot"
-UPDATES_CHANNEL = "botlogas"
+BOT_USERNAME = "Sisjsjdbot"
+UPDATES_CHANNEL = "spartaenc"
 data = []
 crf = []
 watermark = []
