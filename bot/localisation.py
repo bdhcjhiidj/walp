@@ -6,15 +6,14 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "Hey There I'm a Video Encoder Send me a Big File I'll encode into Small size\n\n Channel : @spartaenc"
-
+    START_TEXT = "Hello, \n\nThis is a Telegram <b>Video Encoder Bot</b>. \n\n<b>Please send me any Telegram big video file I will compress it as s small video file!</b> \n\n/help for more details. \n\nChannel : @spartaEnc"
    
     ABS_TEXT = " Please don't be selfish."
     
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     
     
-    DOWNLOAD_START = " Downloading to Server wait ...  \n"
+    DOWNLOAD_START = " Downloading to Server waitt ...  \n"
     
     UPLOAD_START = " Uploading 😳...  \n"
     
@@ -24,7 +23,7 @@ class Localisation:
     
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations."
     
-    COMPRESS_SUCCESS = "@spartaEnc⚔️"
+    COMPRESS_SUCCESS = "@SpartaEnc⚔️"
 
     COMPRESS_PROGRESS = "⏳ ETA: {}\n⚔️ Progress: {}%"
 
@@ -48,11 +47,9 @@ class Localisation:
     
     HELP_MESSAGE = get_config(
         "STRINGS_HELP_MESSAGE",
-        "Hi, I am Video Compressor Bot \n\n1. Send me your telegram big video file \n2. Reply to the file with: `/compress 50` 
+        "Hi, I am Video Compressor Bot \n\n1. Send me your telegram big video file \n2. Reply to the file with: `/compress 50` \n\nSupport Group: @Linux_Repo"
     )
     WRONG_MESSAGE = get_config(
         "STRINGS_WRONG_MESSAGE",
         "current CHAT ID: <code>{CHAT_ID}</code>"
     )
-
-    
