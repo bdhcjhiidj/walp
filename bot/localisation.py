@@ -6,7 +6,7 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "Hey There I'm a Video Encoder Send me a Big File I'll encode into Small size\n\n Channel : @SpartaEnc"
+    START_TEXT = "Hey There I'm a Video Encoder Send me a Big File I'll encode into Small size\n\n Channel :@lowsizemovieswithseries
    
     ABS_TEXT = " Please don't be selfish."
     
@@ -23,7 +23,7 @@ class Localisation:
     
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations."
     
-    COMPRESS_SUCCESS = "@SpartaEnc⚔️"
+    COMPRESS_SUCCESS = "@lowsizemovieswithseries
 
     COMPRESS_PROGRESS = "⏳ ETA: {}\n⚔️ Progress: {}%"
 
@@ -47,7 +47,7 @@ class Localisation:
     
     HELP_MESSAGE = get_config(
         "STRINGS_HELP_MESSAGE",
-        "Hi, I am Video Compressor Bot \n\n1. Send me your telegram big video file \n2. Reply to the file with: `/compress 50` \n\nSupport Group: @Linux_Repo"
+        "Hi, I am Video Compressor Bot \n\n1. Send me your telegram big video file \n2. Reply to the file with: `/compress 50` 
     )
     WRONG_MESSAGE = get_config(
         "STRINGS_WRONG_MESSAGE",
