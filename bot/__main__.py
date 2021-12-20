@@ -220,9 +220,9 @@ if __name__ == "__main__" :
     async def help_message(app, message):
         await message.reply_text("check @seriez_encoded and @series_encoded for Series", quote=True)
 
-    @app.on_message(filters.incoming & filters.command(["movies", f"movies@{BOT_USERNAME}"]))
+    @app.on_message(filters.incoming & filters.command(["anime", f"movies@{BOT_USERNAME}"]))
     async def help_message(app, message):
-        await message.reply_text("check https://t.me/+98gzYdjXY-s0OGY1 for Movies", quote=True)
+        await message.reply_text("join here @animeinless", quote=True)
 
     @app.on_message(filters.incoming & filters.command(["request", f"request@{BOT_USERNAME}"]))
     async def help_message(app, message):
