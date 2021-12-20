@@ -6,7 +6,7 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "Hey There I'm a Video Encoder Send me a Big File I'll encode into Small size\n\n 
+    START_TEXT = "Hey There I'm a Video Encoder Send me a Big File I'll encode into Small size\n\n Channel : @spartaenc"
 
    
     ABS_TEXT = " Please don't be selfish."
