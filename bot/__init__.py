@@ -16,11 +16,10 @@ from bot.config import Config
 
 
 
-AUTH_USERS = [1956035465]
-# again lol (c) 
+AUTH_USERS = [1956035465,1041579937]
 
 SESSION_NAME = "WtfMan"
-TG_BOT_TOKEN = "5005768095:AAHj0SvxGgoaIVFiyDHVXn3rObWQFSRcNog"
+TG_BOT_TOKEN = "5018231954:AAERUhcI3fjPDvLlDtnyvb8BplLBgglUwzU"
 APP_ID = 5631660
 API_HASH = "0a814444441309bc1f1bb2a0e340242a"
 
@@ -32,7 +31,7 @@ FINISHED_PROGRESS_STR = "▓"
 UN_FINISHED_PROGRESS_STR = "░"
 BOT_START_TIME = time.time()
 LOG_FILE_ZZGEVC = "Log.txt"
-BOT_USERNAME = "Sisjsjdbot"
+BOT_USERNAME = "flareEncoderBot"
 UPDATES_CHANNEL = "spartaenc"
 data = []
 crf = []
@@ -41,7 +40,7 @@ resolution = []
 codec = []
 preset = []
 audio_b = []
-# senpai I am changing app string WHY???????
+
 pid_list = []
 app = Client(
         SESSION_NAME,
