@@ -210,11 +210,28 @@ if __name__ == "__main__" :
    
     @app.on_message(filters.incoming & filters.command(["help", f"help@{BOT_USERNAME}"]))
     async def help_message(app, message):
-        await message.reply_text("Hi, I am <b>Video Encoder bot</b>\n\n➥ Send me your telegram files\n➥ I will encode them one by one as I have <b>queue feature</b>\n➥ Just send me the jpg/pic and it will be set as your custom thumbnail \n➥ For ffmpeg lovers - u can change crf by /eval crf.insert(0, 'crf value')\n➥ Join @Animes_Encoded for animes \n\n🏷<b>Maintained By: @dark_contacting_bot</b>", quote=True)
+        await message.reply_text("Hi, I am <b>Video Encoder bot</b>\n\n➥ Send me your telegram files\n➥ I will encode them one by one as I have <b>queue feature</b>\n➥ Just send me the jpg/pic and it will be set as your custom thumbnail \n➥ For ffmpeg lovers - u can change crf by /eval crf.insert(0, 'crf value')\n➥ Join @spartaenc for animes \n\n🏷<b>Maintained By: @krisp2_bot</b>", quote=True)
 
     @app.on_message(filters.incoming & filters.command(["corrupt", f"corrupt@{BOT_USERNAME}"]))
     async def help_message(app, message):
         await message.reply_text("hmm listen there are some files which doesn't have proper metadata or have been corrupted so we can't encode that so find some good source files", quote=True)
+
+    @app.on_message(filters.incoming & filters.command(["series", f"series@{BOT_USERNAME}"]))
+    async def help_message(app, message):
+        await message.reply_text("check @seriez_encoded and @series_encoded for Series", quote=True)
+
+    @app.on_message(filters.incoming & filters.command(["movies", f"movies@{BOT_USERNAME}"]))
+    async def help_message(app, message):
+        await message.reply_text("check https://t.me/+98gzYdjXY-s0OGY1 for Movies", quote=True)
+
+    @app.on_message(filters.incoming & filters.command(["request", f"request@{BOT_USERNAME}"]))
+    async def help_message(app, message):
+        await message.reply_text("Use @Krisp2_bot to Request movies or series", quote=True)
+
+
+    @app.on_message(filters.incoming & filters.command(["rules", f"rules@{BOT_USERNAME}"]))
+    async def help_message(app, message):
+        await message.reply_text("RULES TO FOLLOW\n\n1)Encode your Files one by one or leave a time of gap inbetween\n\n2)Bot restarts every 6 hours so check /ping for uptime\n\n3)If bot stops encoding or stucks at 0% use #restart\n\nUsing #restart unnecessary leads ban/warn\n check /corrupt to know why bot won't encode some files", quote=True)
 
     @app.on_message(filters.incoming & filters.command(["log", f"log@{BOT_USERNAME}"]))
     async def help_message(app, message):
