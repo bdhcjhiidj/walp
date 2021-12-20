@@ -6,14 +6,14 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "Hello, \n\nThis is a Telegram <b>Video Encoder Bot</b>. \n\n<b>Please send me any Telegram big video file I will compress it as s small video file!</b> \n\n/help for more details. \n\nChannel : @movies_Encoded"
+    START_TEXT = "Hey There I'm a Video Encoder Send me a Big File I'll encode into Small size\n\n Channel : @SpartaEnc"
    
     ABS_TEXT = " Please don't be selfish."
     
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     
     
-    DOWNLOAD_START = " Downloading to Server waitt ...  \n"
+    DOWNLOAD_START = " Downloading to Server wait ...  \n"
     
     UPLOAD_START = " Uploading 😳...  \n"
     
