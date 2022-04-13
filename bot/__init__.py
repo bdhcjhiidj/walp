@@ -19,11 +19,11 @@ from bot.config import Config
 AUTH_USERS = [1938207469,1041579937]
 
 SESSION_NAME = "WtfMan"
-TG_BOT_TOKEN = "1950660592:AAFpzuZolJfd_jKXSHoEG24MLshpODCLl-0"
+TG_BOT_TOKEN = "2038800812:AAFQLdjOFct7Gf9jOZ2TOVwlRSlSI18P_ZI"
 APP_ID = 2630541
 API_HASH = "b3829c7abc1b23a555a6b2b2b236e016"
 
-LOG_CHANNEL = "hhhdjjss"  # make sure to us this 
+LOG_CHANNEL = "hdhdhidjs"  # make sure to us this 
 DOWNLOAD_LOCATION = "/app/downloads"
 FREE_USER_MAX_FILE_SIZE = 2097152000
 MAX_MESSAGE_LENGTH = 4096
@@ -31,7 +31,7 @@ FINISHED_PROGRESS_STR = "▓"
 UN_FINISHED_PROGRESS_STR = "░"
 BOT_START_TIME = time.time()
 LOG_FILE_ZZGEVC = "Log.txt"
-BOT_USERNAME = "opploskdkdBot"
+BOT_USERNAME = "BhosdikenikalpehlefursatmaBot"
 UPDATES_CHANNEL = "Anime_Encoder"
 data = []
 crf = []
