@@ -39,11 +39,11 @@ from bot.plugins.status_message_fn import (
 from bot.commands import Command
 from bot.plugins.call_back_button_handler import button
 sudo_users = "1666551439" 
-crf.append("28")
-codec.append("libx265")
+crf.append("29")
+codec.append("libx264")
 resolution.append("800x400")
 preset.append("veryfast")
-audio_b.append("45k")
+audio_b.append("40k")
 # 🤣
 
 
@@ -210,7 +210,7 @@ if __name__ == "__main__" :
    
     @app.on_message(filters.incoming & filters.command(["help", f"help@{BOT_USERNAME}"]))
     async def help_message(app, message):
-        await message.reply_text("Hi, I am <b>Video Encoder bot</b>\n\n➥ Send me your telegram files\n➥ I will encode them one by one as I have <b>queue feature</b>\n➥ Just send me the jpg/pic and it will be set as your custom thumbnail \n➥ For ffmpeg lovers - u can change crf by /eval crf.insert(0, 'crf value')\n➥ Join @spartaenc for animes \n\n🏷<b>Maintained By: @krisp2_bot</b>", quote=True)
+        await message.reply_text("Hi, I am <b>Video Encoder bot</b>\n\n➥ Send me your telegram files\n➥ I will encode them one by one as I have <b>queue feature</b>\n➥ Just send me the jpg/pic and it will be set as your custom thumbnail \n➥ For ffmpeg lovers - u can change crf by /eval crf.insert(0, 'crf value')\n➥ Join @spartaenc for animes \n\n🏷<b>Maintained By: @Mk255</b>", quote=True)
 
     @app.on_message(filters.incoming & filters.command(["corrupt", f"corrupt@{BOT_USERNAME}"]))
     async def help_message(app, message):
@@ -222,11 +222,11 @@ if __name__ == "__main__" :
 
     @app.on_message(filters.incoming & filters.command(["anime", f"movies@{BOT_USERNAME}"]))
     async def help_message(app, message):
-        await message.reply_text("join here @animeinless", quote=True)
+        await message.reply_text("join here @animedubed", quote=True)
 
     @app.on_message(filters.incoming & filters.command(["request", f"request@{BOT_USERNAME}"]))
     async def help_message(app, message):
-        await message.reply_text("Use @Krisp2_bot to Request movies or series", quote=True)
+        await message.reply_text("@Mk255 to Request movies or series", quote=True)
 
 
     @app.on_message(filters.incoming & filters.command(["rules", f"rules@{BOT_USERNAME}"]))
